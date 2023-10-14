@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = ""
+  project = "submission-mgce-mreyhanapw"
   region  = "asia-southeast2"
   zone    = "asia-southeast2-a"
 }
