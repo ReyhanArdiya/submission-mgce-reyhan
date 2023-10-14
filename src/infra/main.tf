@@ -14,3 +14,7 @@ resource "google_storage_bucket" "terraform-state-mgce-mreyhanapw" {
 module "money-tracker-db" {
   source = "./csql"
 }
+
+module "money-tracker-backend" {
+  source = "./gae"
+}
