@@ -5,6 +5,11 @@ terraform {
       version = "5.1.0"
     }
   }
+
+  backend "gcs" {
+    bucket = "terraform-state-mgce-mreyhanapw"
+    prefix = "terraform/state"
+  }
 }
 
 provider "google" {
