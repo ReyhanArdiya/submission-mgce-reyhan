@@ -10,3 +10,7 @@ resource "google_storage_bucket" "terraform-state-mgce-mreyhanapw" {
   location = "ASIA-SOUTHEAST2"
 }
 
+
+module "money-tracker-db" {
+  source = "./csql"
+}
