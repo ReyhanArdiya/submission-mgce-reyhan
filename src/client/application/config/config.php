@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// TODO: Sesuaikan dengan base url front-end yang digunakan
-// $config['base_url'] = 'base_url_frontend_Anda';
+$config['base_url'] = 'https://frontend-dot-submission-mgce-mreyhanapw.et.r.appspot.com';
 
 /*
 |--------------------------------------------------------------------------

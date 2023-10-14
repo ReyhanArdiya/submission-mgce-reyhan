@@ -6,7 +6,13 @@ resource "google_sql_database_instance" "instance" {
     tier = "db-f1-micro"
     ip_configuration {
       ipv4_enabled = true
+
+      authorized_networks {
+        name  = "Internet"
+        value = "0.0.0.0/0"
+      }
     }
+
   }
 
   deletion_protection = "false"

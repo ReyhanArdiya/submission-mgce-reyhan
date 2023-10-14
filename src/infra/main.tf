@@ -18,3 +18,11 @@ module "money-tracker-db" {
 module "money-tracker-backend" {
   source = "./gae"
 }
+
+module "money-tracker-frontend" {
+  source = "./gce"
+}
+
+
+
+
